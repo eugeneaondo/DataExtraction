@@ -30,8 +30,6 @@ the files were not uploaded
 4. Run the Python script `solution1.py`. This script will read the NetCDF files, extract the SST data for each island, and save it in a single CSV file ('all_island_data.csv').
 
    ```bash
-   solution1.py  #for only data in pacific_test.nc
-   solution2.py  #for data in pacific2_test.nc
    alldata.py    #for all data in both .nc files combined to one csv
    ```
 
