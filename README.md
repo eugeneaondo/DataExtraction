@@ -14,7 +14,7 @@ Before using this code, ensure that you have the following prerequisites:
 
    You can install these libraries using pip:
    ```bash
-   pip install numpy netCDF4 pandas
+   pip install netCDF4 
    ```
 
 3. NetCDF Files: You should have NetCDF files containing the data you want to extract. In this specific example, we assume the existence of two NetCDF files named 'pacific_test.nc' and 'pacific2_test.nc'.
@@ -27,7 +27,7 @@ the files were not uploaded
 
 3. Modify the script to define the list of islands and their coordinates as well as other parameters if needed.
 
-4. Run the Python script `solution1.py`. This script will read the NetCDF files, extract the SST data for each island, and save it in a single CSV file ('all_island_data.csv').
+4. Run the Python script `alldata.py`. This script will read the NetCDF files, extract the SST data for each island, and save it in a single CSV file ('all_island_data.csv').
 
    ```bash
    alldata.py    #for all data in both .nc files combined to one csv
